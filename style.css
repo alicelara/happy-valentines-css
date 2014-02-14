@@ -52,6 +52,35 @@ body{
   -webkit-animation: grow 1s infinite ease;
 }
 
+.shadow {
+position:relative;
+left: 2px;
+top: 2px;
+}
+
+.circle-shadow {
+  position:absolute;
+  width: 200px;
+  height: 200px;
+  background-color:rgba(0,0,0,0.3);
+  border-radius: 100px;
+  -webkit-animation: grows 1s infinite ease;
+
+}
+
+.bottom-shadow {
+  position: absolute;
+  top: 136px;
+  right: -7px;
+  width: 0px;
+  height: 0px;
+  border-radius: 100px;
+  border-left: 199px solid transparent;
+  border-right: 199px solid transparent;
+  border-top: 190px solid rgba(0,0,0,0.3);;
+  -webkit-animation: grow 1s infinite ease;
+  
+}
 @-webkit-keyframes grows {
     from {-webkit-transform: scale(1);}
     to   {-webkit-transform: scale(1.03);}
