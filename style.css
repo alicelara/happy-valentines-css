@@ -20,6 +20,7 @@ background-color:#E03840;
   height: 200px;
   background-color:#FFF;
   border-radius: 100px;
+  -webkit-animation: grows 1s infinite ease;
 }
 
 .right {
@@ -38,4 +39,14 @@ background-color:#E03840;
   border-left: 199px solid transparent;
   border-right: 199px solid transparent;
   border-top: 190px solid #fff;
+  -webkit-animation: grow 1s infinite ease;
+}
+
+@-webkit-keyframes grows {
+    from {-webkit-transform: scale(1);}
+    to   {-webkit-transform: scale(1.03);}
+}
+@-webkit-keyframes grow {
+    from {-webkit-transform: scale(1);}
+    to   {-webkit-transform: scale(1.03);}
 }
