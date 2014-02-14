@@ -1,0 +1,41 @@
+/**Happy Valentine's Day
+*/
+
+*, *:before, *:after {
+  box-sizing: border-box 
+}
+
+body{
+background-color:#E03840;
+}
+
+.wrapper {
+  position:relative;
+  width:385px;
+  margin: 10px auto;
+  
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color:#FFF;
+  border-radius: 100px;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  left: 185px;
+}
+
+.bottom {
+  position: relative;
+  top: -64px;
+  right: 6.04px;
+  width: 0px;
+  height: 0px;
+  border-radius: 100px;
+  border-left: 199px solid transparent;
+  border-right: 199px solid transparent;
+  border-top: 190px solid #fff;
+}
