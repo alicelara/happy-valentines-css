@@ -16,7 +16,7 @@ body{
   font-size: 5em;
   text-align: center;
   color: #FFF;
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 2px #000;
 }
 
 .wrapper {
@@ -62,7 +62,7 @@ top: 2px;
   position:absolute;
   width: 200px;
   height: 200px;
-  background-color:rgba(0,0,0,0.3);
+  background-color:#000;
   border-radius: 100px;
   -webkit-animation: grows 1s infinite ease;
 
@@ -71,13 +71,13 @@ top: 2px;
 .bottom-shadow {
   position: absolute;
   top: 136px;
-  right: -7px;
+  right: -6px;
   width: 0px;
   height: 0px;
   border-radius: 100px;
   border-left: 199px solid transparent;
   border-right: 199px solid transparent;
-  border-top: 190px solid rgba(0,0,0,0.3);;
+  border-top: 190px solid #000;
   -webkit-animation: grow 1s infinite ease;
   
 }
